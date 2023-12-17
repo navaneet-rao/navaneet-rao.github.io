@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.190b3347.css",
-    "main.js": "/portfolio-website/static/js/main.6173fa68.js",
+    "main.css": "/portfolio-website/static/css/main.a6fc8e97.css",
+    "main.js": "/portfolio-website/static/js/main.04bc8c77.js",
     "static/js/787.861fdc3f.chunk.js": "/portfolio-website/static/js/787.861fdc3f.chunk.js",
     "static/media/me.jpg": "/portfolio-website/static/media/me.893757b71ff33caabfbf.jpg",
+    "static/media/Navaneet_R_Rao_12_dec_2023.pdf": "/portfolio-website/static/media/Navaneet_R_Rao_12_dec_2023.2ba28ad9655dd673cd00.pdf",
     "index.html": "/portfolio-website/index.html",
-    "main.190b3347.css.map": "/portfolio-website/static/css/main.190b3347.css.map",
-    "main.6173fa68.js.map": "/portfolio-website/static/js/main.6173fa68.js.map",
+    "main.a6fc8e97.css.map": "/portfolio-website/static/css/main.a6fc8e97.css.map",
+    "main.04bc8c77.js.map": "/portfolio-website/static/js/main.04bc8c77.js.map",
     "787.861fdc3f.chunk.js.map": "/portfolio-website/static/js/787.861fdc3f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.190b3347.css",
-    "static/js/main.6173fa68.js"
+    "static/css/main.a6fc8e97.css",
+    "static/js/main.04bc8c77.js"
   ]
 }
