@@ -17,9 +17,9 @@ const Home = () => {
   };
   return (
     <div name="home" className="h-screen w-full bg-[#0a192f]">
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-        <div className="flex flex-col justify-center py-12">
-          <h2 className="sm:text-7xl text-4xl font-bold text-white">
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row ">
+        <div className="flex flex-col justify-center py-12  wide:landscape:mt-16 ">
+          <h2 className="sm:text-7xl text-4xl font-bold text-white portrait:text-center  wide:landscape:text-4xl">
             I'm a Full Stack Web Developer
           </h2>
           <p className="text-gray-400 py-4 max-w-md">
@@ -28,17 +28,17 @@ const Home = () => {
             analysis, Cybersecurity, and more
           </p>
           <div>
-            <ul className="flex md:flex gap-x-8">
+            <ul className="flex md:flex gap-x-8 portrait:gap-x-1 portrait:justify-center">
               <li>
                 <Link
                   to="about"
                   smooth
                   duration={500}
-                  className="group text-black w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer hover:scale-110 duration-500"
+                  className="group text-black w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer hover:scale-110 duration-500 "
                 >
-                  About Me
-                  <span className="group-hover:rotate-90 duration-300 hover:scale-110 duration-500">
-                    <HiArrowNarrowRight size={25} className="ml-3" />
+                  <p>About Me</p>
+                  <span className="group-hover:rotate-90 duration-300 hover:scale-110 duration-500 ">
+                    <HiArrowNarrowRight size={20} className="ml-2" />
                   </span>
                 </Link>
               </li>
@@ -51,18 +51,18 @@ const Home = () => {
                 >
                   Resume
                   <button className="hover:scale-110 duration-500">
-                    <FaFileDownload size={25} className="ml-3" />
+                    <FaFileDownload size={20} className="ml-2" />
                   </button>
                 </Link>
               </li>
             </ul>
           </div>
         </div>
-        <div>
+        <div className=" wide:landscape:mt-6">
           <img
             src={me}
             alt="my profile"
-            className="rounded-full xl:h-auto xl:max-w-lg xl:ms-auto max-w-xs "
+            className="rounded-full xl:h-auto xl:max-w-lg xl:ms-auto max-w-xs  wide:landscape:max-w-[200px]  "
           />
         </div>
       </div>

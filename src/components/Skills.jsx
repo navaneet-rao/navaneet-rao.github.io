@@ -4,14 +4,14 @@ const Skills = () => {
   return (
     <div name="skills" className="w-full h-full bg-[#0a192f] text-gray-200 sm:py-10">
       {/* Container */}
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full ">
-        <div className=" w-full h-full flex justify-center items-center flex-col mb-7">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full  wide:landscape:mt-64">
+        <div className=" w-full h-full flex justify-center items-center flex-col mb-7 portrait:mt-40">
           <p className="text-4xl font-bold inline border-b-4 border-cyan-500 text-center ">
             Skills
           </p>
-          <p className="py-4 text-2xl">
+          <p className="py-4 text-2xl text-center">
             I enjoy learning new things. Here's a list of some of technologies
-            I've worked with
+            I've worked with.
           </p>
         </div>
         <p className="text-2xl font-bold inline  text-center ">
