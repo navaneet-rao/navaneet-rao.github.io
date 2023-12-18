@@ -21,12 +21,12 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 z-30">
       <div>
-        <h1 className=" font-thin text-2xl italic font-serif">NRR.dev</h1>
+        <Link className=" font-thin text-2xl italic font-serif" to="home" smooth={true} duration={500}>NRR.dev</Link>
       </div>
       {/* menu */}
       <ul className="hidden md:flex gap-x-8">
         <li>
-          <Link to="home" smooth={true} duration={500}>
+          <Link to="home" smooth={true} duration={500} className="">
             Home
           </Link>
         </li>
@@ -64,7 +64,7 @@ const Navbar = () => {
         }
       >
         <li className="py-6 text-4xl">
-          <Link onClick={handleClick} to="home" smooth={true} duration={500}>
+          <Link onClick={handleClick} to="home" smooth={true} duration={500} >
             Home
           </Link>
         </li>
