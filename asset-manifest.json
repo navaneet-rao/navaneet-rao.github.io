@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.80e5b1a8.css",
-    "main.js": "/portfolio-website/static/js/main.adac143a.js",
+    "main.css": "/portfolio-website/static/css/main.7b8b2149.css",
+    "main.js": "/portfolio-website/static/js/main.0d6e083e.js",
     "static/js/787.861fdc3f.chunk.js": "/portfolio-website/static/js/787.861fdc3f.chunk.js",
     "static/media/code2.png": "/portfolio-website/static/media/code2.09ea22136636a67a2c95.png",
     "static/media/me.jpg": "/portfolio-website/static/media/me.893757b71ff33caabfbf.jpg",
     "static/media/Navaneet_R_Rao_12_dec_2023.pdf": "/portfolio-website/static/media/Navaneet_R_Rao_12_dec_2023.2ba28ad9655dd673cd00.pdf",
     "index.html": "/portfolio-website/index.html",
-    "main.80e5b1a8.css.map": "/portfolio-website/static/css/main.80e5b1a8.css.map",
-    "main.adac143a.js.map": "/portfolio-website/static/js/main.adac143a.js.map",
+    "main.7b8b2149.css.map": "/portfolio-website/static/css/main.7b8b2149.css.map",
+    "main.0d6e083e.js.map": "/portfolio-website/static/js/main.0d6e083e.js.map",
     "787.861fdc3f.chunk.js.map": "/portfolio-website/static/js/787.861fdc3f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.80e5b1a8.css",
-    "static/js/main.adac143a.js"
+    "static/css/main.7b8b2149.css",
+    "static/js/main.0d6e083e.js"
   ]
 }
