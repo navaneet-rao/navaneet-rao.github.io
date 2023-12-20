@@ -19,14 +19,14 @@ const Home = () => {
     <div name="home" className="h-screen w-full bg-[#0a192f]">
       <div className="max-w-[1200px] mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row ">
         <div className="flex flex-col justify-center py-12  wide:landscape:mt-16 ">
-          <div className=" wide:landscape:mt-6 mx-auto portrait:py-[40px] landscape:hidden">
+          <div className=" wide:landscape:mt-6 mx-auto  landscape:hidden">
             <img
               src={me}
               alt="my profile"
               className="rounded-full xl:h-auto xl:max-w-lg xl:ms-auto max-w-xs  wide:landscape:max-w-[200px]  "
             />
           </div>
-          <h2 className="sm:text-7xl text-4xl font-bold text-white portrait:text-center  wide:landscape:text-4xl">
+          <h2 className="sm:text-7xl text-4xl font-bold text-white portrait:text-center portrait:py-[40px] wide:landscape:text-4xl">
             I'm a Full Stack Web Developer
           </h2>
           <p className="text-gray-400 py-4 max-w-md">
