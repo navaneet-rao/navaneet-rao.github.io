@@ -26,10 +26,10 @@ const Home = () => {
               className="rounded-full xl:h-auto xl:max-w-lg xl:ms-auto max-w-xs  wide:landscape:max-w-[200px]  "
             />
           </div>
-          <h2 className="sm:text-7xl text-4xl font-bold text-white portrait:text-center portrait:py-[40px] wide:landscape:text-4xl">
+          <h2 className="sm:text-7xl text-4xl font-bold text-white portrait:text-center portrait:py-[10px] wide:landscape:text-4xl">
             I'm a Full Stack Web Developer
           </h2>
-          <p className="text-gray-400 portrait:text-center py-4 max-w-md">
+          <p className="text-gray-400 portrait:text-center py-4 portrait:mx-auto max-w-md">
             I am a EX200 Red Hat Certified System Administrator Passionate about
             coding and tech. Currently exploring ReactJS, open-stack, Network
             analysis, Cybersecurity, and more
