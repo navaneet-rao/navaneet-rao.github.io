@@ -47,7 +47,7 @@ const Works = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100 flex justify-center items-center flex-col">
+            <div className="opacity-0 group-hover:opacity-100 flex justify-center  items-center flex-col">
               <span className=" text-lg font-bold text-white tracking-wider">
                 CBT Application
               </span>
