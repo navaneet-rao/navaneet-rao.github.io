@@ -1,4 +1,5 @@
 import icons from "./icons";
+import images from "./images";
 
 export const skills = [
   {
@@ -13,7 +14,7 @@ export const skills = [
         image: icons.javascript,
       },
       {
-        name: "Git Hub Pages",
+        name: "Git Hub",
         image:
           "https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png",
       },
@@ -203,5 +204,39 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Red_Hat_logo.svg/316px-Red_Hat_logo.svg.png",
       },
     ],
+  },
+];
+
+export const Projects = [
+  {
+    title: "My Portfolio",
+    description:
+      "This is my personal portfolio website built using ReactJS and Tailwind",
+    image: images.PortfolioPhoto,
+    haveDemo: true,
+    demo: "https://navaneet-rao.github.io/portfolio-website/",
+    code: "https://github.com/navaneet-rao/portfolio-website",
+  },
+  {
+    title: "Face Detection Application",
+    description: "Face Detection Application using Python and BetaFaceAPI",
+    image: images.FaceDetection,
+    haveDemo: false,
+    code: "https://github.com/navaneet-rao/Face-Detection-With-BetaFaceAPI-Application",
+  },
+  {
+    title: "Basic Calculator",
+    description: "Build a basic calculator using html and css",
+    image: images.calc,
+    haveDemo: true,
+    demo: "https://navaneet-rao.github.io/Simple-HTML-Calculator/",
+    code: "https://github.com/navaneet-rao/Simple-HTML-Calculator",
+  },
+  {
+    title: "Automated Push Notification",
+    description: "Automated Notification with NTFY and using PowerShell",
+    image: images.NTFY,
+    haveDemo: false,
+    code: "https://github.com/navaneet-rao/Automated-Push-Notification-Using-NTFY-PowerShell",
   },
 ];

@@ -6,8 +6,13 @@ import me from "../assets/me.jpg";
 import resume from "../assets/Navaneet_R_Rao_12_dec_2023.pdf";
 import { Link } from "react-scroll";
 import { TypeAnimation } from "react-type-animation";
+import {
+  LazyLoadImage,
+  trackWindowScroll,
+} from "react-lazy-load-image-component";
 
-const Home = () => {
+
+const Home = ({ scrollPosition }) => {
   const onButtonClick = () => {
     const pdfUrl = resume;
     const link = document.createElement("a");
@@ -23,7 +28,8 @@ const Home = () => {
       <div className="max-w-[1200px] mx-auto flex flex-col items-center justify-center h-full px-2 md:flex-row ">
         <div className="flex flex-col justify-center   wide:landscape:mt-16 ">
           <div className=" wide:landscape:mt-6 mx-auto  landscape:hidden">
-            <img
+            <LazyLoadImage
+              scrollPosition={scrollPosition}
               src={me}
               alt="my profile"
               className="rounded-full xl:h-auto xl:max-w-lg xl:ms-auto max-w-xs  wide:landscape:max-w-[200px]  "
@@ -98,7 +104,8 @@ const Home = () => {
           </div>
         </div>
         <div className=" wide:landscape:mt-6 mx-auto portrait:py-[40px] portrait:hidden">
-          <img
+          <LazyLoadImage
+            scrollPosition={scrollPosition}
             src={me}
             alt="my profile"
             className="rounded-full xl:h-auto xl:max-w-[420px] xl:ms-auto max-w-xs  wide:landscape:max-w-[300px]  "
@@ -108,4 +115,4 @@ const Home = () => {
     </div>
   );
 };
-export default Home;
+export default trackWindowScroll(Home);
