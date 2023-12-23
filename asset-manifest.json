@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.5254d170.css",
-    "main.js": "/portfolio-website/static/js/main.0dd7959e.js",
+    "main.css": "/portfolio-website/static/css/main.bc460a9c.css",
+    "main.js": "/portfolio-website/static/js/main.b297ffca.js",
     "static/js/787.861fdc3f.chunk.js": "/portfolio-website/static/js/787.861fdc3f.chunk.js",
-    "static/media/code2.png": "/portfolio-website/static/media/code2.09ea22136636a67a2c95.png",
     "static/media/me.jpg": "/portfolio-website/static/media/me.893757b71ff33caabfbf.jpg",
+    "static/media/portfolio-photo.png": "/portfolio-website/static/media/portfolio-photo.ef44893befa982efa0ac.png",
+    "static/media/Face-Detection-With-BetaFaceAPI-Application.png": "/portfolio-website/static/media/Face-Detection-With-BetaFaceAPI-Application.e8b85f5e899c85654bd3.png",
+    "static/media/ntfy1.png": "/portfolio-website/static/media/ntfy1.b5c7d167ff71cf5c3b77.png",
     "static/media/Navaneet_R_Rao_12_dec_2023.pdf": "/portfolio-website/static/media/Navaneet_R_Rao_12_dec_2023.2ba28ad9655dd673cd00.pdf",
+    "static/media/simple-calc.png": "/portfolio-website/static/media/simple-calc.4b04dbc2a003cf6641d9.png",
+    "static/media/react.svg": "/portfolio-website/static/media/react.e27571eaed899c642345e71163624ef9.svg",
     "index.html": "/portfolio-website/index.html",
-    "main.5254d170.css.map": "/portfolio-website/static/css/main.5254d170.css.map",
-    "main.0dd7959e.js.map": "/portfolio-website/static/js/main.0dd7959e.js.map",
+    "main.bc460a9c.css.map": "/portfolio-website/static/css/main.bc460a9c.css.map",
+    "main.b297ffca.js.map": "/portfolio-website/static/js/main.b297ffca.js.map",
     "787.861fdc3f.chunk.js.map": "/portfolio-website/static/js/787.861fdc3f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5254d170.css",
-    "static/js/main.0dd7959e.js"
+    "static/css/main.bc460a9c.css",
+    "static/js/main.b297ffca.js"
   ]
 }
