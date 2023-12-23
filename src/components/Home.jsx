@@ -1,6 +1,7 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import { FaFileDownload } from "react-icons/fa";
+// import { FaFileDownload } from "react-icons/fa";
+import { FaRegFilePdf } from "react-icons/fa6";
 import me from "../assets/me.jpg";
 import resume from "../assets/Navaneet_R_Rao_12_dec_2023.pdf";
 import { Link } from "react-scroll";
@@ -10,10 +11,11 @@ const Home = () => {
     const pdfUrl = resume;
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "Navaneet_R_Rao_Resume.pdf"; // specify the filename
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    // link.download = "Navaneet_R_Rao_Resume.pdf"; // specify the filename
+    // document.body.appendChild(link);
+    // link.click();
+    // document.body.removeChild(link);
+    window.open(pdfUrl, "_blank", "noreferrer");
   };
   return (
     <div name="home" className="h-screen w-full bg-[#0a192f]">
@@ -58,7 +60,8 @@ const Home = () => {
                 >
                   Resume
                   <button className="hover:scale-110 duration-500">
-                    <FaFileDownload size={20} className="ml-2" />
+                    {/* <FaFileDownload size={20} className="ml-2" /> */}
+                    <FaRegFilePdf size={20} className="ml-2" />
                   </button>
                 </Link>
               </li>
