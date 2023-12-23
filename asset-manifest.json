@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.bc460a9c.css",
-    "main.js": "/portfolio-website/static/js/main.b297ffca.js",
+    "main.css": "/portfolio-website/static/css/main.4c584866.css",
+    "main.js": "/portfolio-website/static/js/main.50d2c0a9.js",
     "static/js/787.861fdc3f.chunk.js": "/portfolio-website/static/js/787.861fdc3f.chunk.js",
     "static/media/me.jpg": "/portfolio-website/static/media/me.893757b71ff33caabfbf.jpg",
     "static/media/portfolio-photo.png": "/portfolio-website/static/media/portfolio-photo.ef44893befa982efa0ac.png",
@@ -9,14 +9,39 @@
     "static/media/ntfy1.png": "/portfolio-website/static/media/ntfy1.b5c7d167ff71cf5c3b77.png",
     "static/media/Navaneet_R_Rao_12_dec_2023.pdf": "/portfolio-website/static/media/Navaneet_R_Rao_12_dec_2023.2ba28ad9655dd673cd00.pdf",
     "static/media/simple-calc.png": "/portfolio-website/static/media/simple-calc.4b04dbc2a003cf6641d9.png",
+    "static/media/flask.svg": "/portfolio-website/static/media/flask.b895607b707b858500de2a5db7a25ebd.svg",
+    "static/media/lua.svg": "/portfolio-website/static/media/lua.be494b08867f441cddcd099b85046858.svg",
+    "static/media/opencv.svg": "/portfolio-website/static/media/opencv.8cb412782ed83f22f5002e8b496a10cd.svg",
+    "static/media/jupyter.svg": "/portfolio-website/static/media/jupyter.6fecc851abfe23cf932ac8749b2e5590.svg",
     "static/media/react.svg": "/portfolio-website/static/media/react.e27571eaed899c642345e71163624ef9.svg",
+    "static/media/android-icon.svg": "/portfolio-website/static/media/android-icon.f2e6f99780b6ec6607ca42617ecb9c62.svg",
+    "static/media/ibm.svg": "/portfolio-website/static/media/ibm.d998842ad1fb6abd29f1cccc2468e537.svg",
+    "static/media/yarn.svg": "/portfolio-website/static/media/yarn.20176999d3a9efda7a2bbfad3fe811ee.svg",
+    "static/media/web3js.svg": "/portfolio-website/static/media/web3js.920f8a922103167ba37ee536d7350413.svg",
+    "static/media/nodejs-icon-alt.svg": "/portfolio-website/static/media/nodejs-icon-alt.4d3b4b28f4ec34bba09d462d8feb1ec9.svg",
+    "static/media/github-icon.svg": "/portfolio-website/static/media/github-icon.04ed74f38b41cdcbf14f80ae8cd0aa2b.svg",
+    "static/media/c-plusplus.svg": "/portfolio-website/static/media/c-plusplus.3903c781fc7f522cf861687b41d82708.svg",
+    "static/media/java.svg": "/portfolio-website/static/media/java.83165dfb2f5a7657ce4c73e0ba3cef32.svg",
+    "static/media/python.svg": "/portfolio-website/static/media/python.6a8b2999db46fb931134216e8fdfdb2c.svg",
+    "static/media/html-5.svg": "/portfolio-website/static/media/html-5.e7638e3676622c76a46ece6c46136fd4.svg",
+    "static/media/css-3.svg": "/portfolio-website/static/media/css-3.e7a9de36d9335d92932e93eb3b32deb9.svg",
+    "static/media/bootstrap.svg": "/portfolio-website/static/media/bootstrap.4f4c52d75ff6e4fd91fa75febc052a19.svg",
+    "static/media/numpy.svg": "/portfolio-website/static/media/numpy.cf45d4df86beb5d1ec7017e3fdfad26a.svg",
+    "static/media/c-sharp.svg": "/portfolio-website/static/media/c-sharp.df8961a12f0fbeccb4f761e1bf5dc5a7.svg",
+    "static/media/git-icon.svg": "/portfolio-website/static/media/git-icon.fd381642a8b14fec88b8d6df1ff25220.svg",
+    "static/media/javascript.svg": "/portfolio-website/static/media/javascript.fd46ca41839433d73577989d86eb2fe2.svg",
+    "static/media/django-icon.svg": "/portfolio-website/static/media/django-icon.c21fc22f8d0e139416d377f8f5e5b77b.svg",
+    "static/media/tailwindcss-icon.svg": "/portfolio-website/static/media/tailwindcss-icon.50fbcf516b9a3774e9a83272167059ae.svg",
+    "static/media/c-1.svg": "/portfolio-website/static/media/c-1.21a8fab81e76bf019238a55c1c88198c.svg",
+    "static/media/tensorflow.svg": "/portfolio-website/static/media/tensorflow.10a223f42e170a821efd9b272fc4c165.svg",
     "index.html": "/portfolio-website/index.html",
-    "main.bc460a9c.css.map": "/portfolio-website/static/css/main.bc460a9c.css.map",
-    "main.b297ffca.js.map": "/portfolio-website/static/js/main.b297ffca.js.map",
+    "static/media/wireshark.svg": "/portfolio-website/static/media/wireshark.d41e23b03bfcd7eba16433ace11f9301.svg",
+    "main.4c584866.css.map": "/portfolio-website/static/css/main.4c584866.css.map",
+    "main.50d2c0a9.js.map": "/portfolio-website/static/js/main.50d2c0a9.js.map",
     "787.861fdc3f.chunk.js.map": "/portfolio-website/static/js/787.861fdc3f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc460a9c.css",
-    "static/js/main.b297ffca.js"
+    "static/css/main.4c584866.css",
+    "static/js/main.50d2c0a9.js"
   ]
 }
