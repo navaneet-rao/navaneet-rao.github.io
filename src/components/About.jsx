@@ -17,24 +17,34 @@ const About = () => {
             </div>
           </div>
           <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 ">
-            <div className="sm:text-right text-4xl font-bold wide:landscape:text-2xl ">
+            <div className="sm:text-right text-4xl font-bold wide:landscape:text-2xl portrait:text-3xl ">
               <p>
-                Hi. <span className="wave wide:landscape:text-5xl text-6xl portrait:text-4xl" >👋</span> I'm Navaneet R Rao,
-                nice to meet you. Please take a look around.
+                Hi.{" "}
+                <span className="wave wide:landscape:text-5xl text-6xl portrait:text-3xl">
+                  👋
+                </span>{" "}
+                I'm Navaneet, nice to meet you. Please take a look around.
               </p>
             </div>
             <div>
-              <p>
-                {" "}
-                A software developer with experience in building Responsive and
-                Scalable Web apps. Certified IT professional specializing in
-                Linux system administration with recent achievement of RHCSA
-                certification. Proven expertise in optimizing system
-                performance, managing networks, and implementing security
-                protocols. actively fostering innovation and collaboration.
-                Dedicated Computer Science and Engineering student committed to
-                staying current with the latest technologies.
-              </p>
+              <ul className="list-disc portrait:list-none ">
+                <li>
+                  A software developer with experience in building Responsive
+                  and Scalable Web apps.
+                </li>
+                <li>
+                  Certified IT professional specializing in Linux system
+                  administration with recent achievement of RHCSA certification.
+                  Proven expertise in optimizing system performance, managing
+                  networks, and implementing security protocols.
+                </li>
+                <li>
+                  Actively fostering innovation and collaboration. Dedicated
+                  Computer Science and Engineering student committed to staying
+                  current with the latest technologies.
+                </li>
+                <li>Loves Listening to music everyday and Taking photos</li>
+              </ul>
             </div>
           </div>
         </div>

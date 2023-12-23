@@ -18,6 +18,13 @@ module.exports = {
         },
       },
     },
+    // colors: {
+    //   OxfordBlue: "#0A192F",
+    //   Icterine: "#FFFF82",
+    //   Beige: "#F5F7DC",
+    //   celadon: "#B5D99C",
+    //   IndianRed: "#E65F5C",
+    // },
   },
   plugins: [],
 };

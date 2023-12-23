@@ -5,6 +5,7 @@ import { FaRegFilePdf } from "react-icons/fa6";
 import me from "../assets/me.jpg";
 import resume from "../assets/Navaneet_R_Rao_12_dec_2023.pdf";
 import { Link } from "react-scroll";
+import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
   const onButtonClick = () => {
@@ -19,8 +20,8 @@ const Home = () => {
   };
   return (
     <div name="home" className="h-screen w-full bg-[#0a192f]">
-      <div className="max-w-[1200px] mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row ">
-        <div className="flex flex-col justify-center py-12  wide:landscape:mt-16 ">
+      <div className="max-w-[1200px] mx-auto flex flex-col items-center justify-center h-full px-2 md:flex-row ">
+        <div className="flex flex-col justify-center   wide:landscape:mt-16 ">
           <div className=" wide:landscape:mt-6 mx-auto  landscape:hidden">
             <img
               src={me}
@@ -28,14 +29,42 @@ const Home = () => {
               className="rounded-full xl:h-auto xl:max-w-lg xl:ms-auto max-w-xs  wide:landscape:max-w-[200px]  "
             />
           </div>
-          <h2 className="sm:text-7xl text-4xl font-bold text-white portrait:text-center portrait:py-[10px] wide:landscape:text-4xl">
-            I'm a Full Stack Web Developer
+          <h2 className="sm:text-7xl text-4xl text-[#B5D99C] font-bold text-white portrait:text-center portrait:py-[17px]  wide:landscape:text-4xl">
+            I am Navaneet R Rao
           </h2>
-          <p className="text-gray-400 portrait:text-center py-4 portrait:mx-auto max-w-md">
-            I am a EX200 Red Hat Certified System Administrator Passionate about
-            coding and tech. Currently exploring ReactJS, open-stack, Network
-            analysis, Cybersecurity, and more
-          </p>
+
+          <TypeAnimation
+            sequence={[
+              "I'm a Full Stack Developer",
+              2000,
+              "I'm a Programmer",
+              2000,
+              "I'm a Network Analysis",
+              2000,
+              "And a Music lover 🎧",
+              2000,
+            ]}
+            repeat={Infinity}
+            style={{ fontSize: "1.5em" }}
+            className=" text-[#FFFF82] portrait:text-center "
+          />
+
+          <div className="text-gray-400 portrait:text-center py-4 portrait:mx-auto max-w-md">
+            <ul className="list-disc">
+              <li>
+                {" "}
+                I am Passionate about coding and tech. Currently exploring
+                ReactJS, open-stack, Network analysis, Cybersecurity, and more.{" "}
+              </li>
+              <li>
+                Let's connect, collaborate, and make a lasting impact together.
+              </li>
+              <li>
+                Thank you for visiting my portfolio, and I look forward to the
+                exciting possibilities ahead!
+              </li>
+            </ul>
+          </div>
           <div>
             <ul className="flex md:flex gap-x-8 portrait:gap-x-1 portrait:justify-center">
               <li>

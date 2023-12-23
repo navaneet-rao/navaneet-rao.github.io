@@ -12,10 +12,11 @@ const Navbar = () => {
     const pdfUrl = resume;
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "Navaneet_R_Rao_Resume.pdf"; // specify the filename
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+    // link.download = "Navaneet_R_Rao_Resume.pdf"; // specify the filename
+    // document.body.appendChild(link);
+    // link.click();
+    // document.body.removeChild(link);
+    window.open(pdfUrl, "_blank", "noreferrer");
   };
 
   return (
@@ -115,7 +116,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0b6623]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="mailto:navaneet517@gmail.com"
             >
               Email <HiOutlineMail size={30} />
             </a>
