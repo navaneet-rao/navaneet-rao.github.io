@@ -45,7 +45,7 @@ const Home = ({ scrollPosition }) => {
               2000,
               "I'm a Programmer",
               2000,
-              "I'm a Network Analysis",
+              "I'm a Network Analyst",
               2000,
               "And a Music lover 🎧",
               2000,
