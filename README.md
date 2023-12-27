@@ -1,19 +1,19 @@
-### GitHub Portfolio Website Description
+# GitHub Portfolio Website Description
 
 Welcome to my GitHub Portfolio Website! This space serves as a curated showcase of my skills, projects, and contributions in the vast world of technology. As a passionate and dedicated individual in the field, I've crafted this portfolio to offer you insights into my journey, expertise, and the projects that define my professional identity.
 
 ##What to Expect:
 
-# Projects Showcase: 
+### Projects Showcase: 
 Explore a collection of projects that highlight my technical proficiency and creativity. From coding challenges to full-scale applications, each project reflects my commitment to quality and innovation.
 
-# Contribution History: 
+### Contribution History: 
 Dive into my GitHub contribution history to see my active engagement within the open-source community. Witness the collaborative spirit and commitment to shared learning that drives my involvement in various projects.
 
-# Skills and Technologies: 
+### Skills and Technologies: 
 Get an overview of the technologies and programming languages I specialize in. Whether it's web development, machine learning, or system architecture, you'll find a comprehensive list of skills that define my expertise.
 
-# Learning Journey: 
+### Learning Journey: 
 Follow my learning journey through the projects and repositories I've created. From initial experiments to more advanced endeavors, this portfolio chronicles my growth and evolution as a technologist.
 
 ## Why GitHub?
