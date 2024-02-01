@@ -4,7 +4,7 @@
   "homepage": "https://navaneet-rao.github.io/portfolio-website",
   "private": true,
   "dependencies": {
-    "@emailjs/browser": "^3.11.0",
+    "@emailjs/browser": "^3.12.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
