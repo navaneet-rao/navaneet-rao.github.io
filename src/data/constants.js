@@ -78,47 +78,6 @@ export const skills = [
     ],
   },
   {
-    title: "Data Science  ",
-    skills: [
-      {
-        name: "NumPy",
-        image: icons.numpy,
-      },
-      {
-        name: "Pandas",
-        image:
-          "https://th.bing.com/th/id/OIP.piNLdaonjflnFaRbMwXxqQAAAA?w=115&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-      },
-      {
-        name: "SciKit-Learn",
-        image:
-          "https://th.bing.com/th/id/OIP.tWDEPESn8KwHbsnu-3j0_gHaEK?w=281&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-      },
-      {
-        name: "Jupyter Notebook",
-        image: icons.jupyter,
-      },
-      {
-        name: "Google Colab",
-        image:
-          "https://logowik.com/content/uploads/images/google-colaboratory6512.jpg",
-      },
-      {
-        name: "Open CV",
-        image: icons.opencv,
-      },
-      {
-        name: "Tensor Flow",
-        image: icons.tf,
-      },
-      {
-        name: "Matplotlib",
-        image:
-          "https://th.bing.com/th/id/OIP.RyIdXhOXLr7W4ei4-tvVggAAAA?w=150&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
-      },
-    ],
-  },
-  {
     title: "Android",
     skills: [
       {

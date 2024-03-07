@@ -3,14 +3,13 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 // import { FaFileDownload } from "react-icons/fa";
 import { FaRegFilePdf } from "react-icons/fa6";
 import me from "../assets/me.jpg";
-import resume from "../assets/Navaneet_R_Rao_12_dec_2023.pdf";
+import resume from "../assets/Navaneet R Rao Resume Mar 1.pdf";
 import { Link } from "react-scroll";
 import { TypeAnimation } from "react-type-animation";
 import {
   LazyLoadImage,
   trackWindowScroll,
 } from "react-lazy-load-image-component";
-
 
 const Home = ({ scrollPosition }) => {
   const onButtonClick = () => {
@@ -35,7 +34,7 @@ const Home = ({ scrollPosition }) => {
               className="rounded-full xl:h-auto xl:max-w-lg xl:ms-auto max-w-xs  wide:landscape:max-w-[200px]  "
             />
           </div>
-          <h2 className="sm:text-7xl text-4xl text-[#B5D99C] font-bold text-white portrait:text-center portrait:py-[17px]  wide:landscape:text-4xl">
+          <h2 className="sm:text-7xl text-4xl text-[#B5D99C] font-bold portrait:text-center portrait:py-[17px]  wide:landscape:text-4xl">
             I am Navaneet R Rao
           </h2>
 
@@ -81,7 +80,7 @@ const Home = ({ scrollPosition }) => {
                   className="group text-black w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer hover:scale-110 duration-500 "
                 >
                   <p>About Me</p>
-                  <span className="group-hover:rotate-90 duration-300 hover:scale-110 duration-500 ">
+                  <span className="group-hover:rotate-90 hover:scale-110 duration-500 ">
                     <HiArrowNarrowRight size={20} className="ml-2" />
                   </span>
                 </Link>

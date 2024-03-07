@@ -1,7 +1,7 @@
 {
   "name": "portfolio-website",
   "version": "8.0.5",
-  "homepage": "https://navaneet-rao.github.io/portfolio-website",
+  "homepage": "https://navaneet-rao.github.io",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
