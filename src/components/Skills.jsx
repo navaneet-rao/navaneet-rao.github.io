@@ -9,7 +9,7 @@ const Skills = () => {
     >
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full  wide:landscape:mt-64">
-        <div className=" w-full h-full flex justify-center items-center flex-col mt-60 portrait:mt-40">
+        <div className=" w-full h-full flex justify-center items-center flex-col mt-5 portrait:mt-20">
           <p className="text-4xl font-bold inline border-b-4 border-cyan-500 text-center ">
             Skills
           </p>

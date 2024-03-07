@@ -23,7 +23,7 @@ const Home = ({ scrollPosition }) => {
     window.open(pdfUrl, "_blank", "noreferrer");
   };
   return (
-    <div name="home" className="h-screen w-full bg-[#0a192f]">
+    <div name="home" className="h-screen w-full bg-[#0a192f] ">
       <div className="max-w-[1200px] mx-auto flex flex-col items-center justify-center h-full px-2 md:flex-row ">
         <div className="flex flex-col justify-center   wide:landscape:mt-16 ">
           <div className=" wide:landscape:mt-6 mx-auto  landscape:hidden">

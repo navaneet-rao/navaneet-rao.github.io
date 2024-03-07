@@ -25,18 +25,18 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen wide:landscape:h-full  portrait:h-full bg-[#0a192f] flex justify-center items-center p-4"
+      className="w-full h-screen wide:landscape:h-full  portrait:h-full bg-[#0a192f] flex justify-center items-center p-4 pb-50"
     >
       <div className="flex flex-col max-w-[600px] w-full  wide:landscape:pt-[350px] portrait:mt-32 portrait:mb-32">
-        <section class="bg-white dark:bg-gray-900">
-          <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+        <section class="bg-white dark:bg-gray-900 lg:scale-75">
+          <div class="py-8 px-4 mx-auto max-w-screen-md">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">
               Contact Me
             </h2>
             <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
               Connect with me by filling the below form
             </p>
-            <form action="#" class="space-y-8"  ref={form} onSubmit={sendEmail}>
+            <form action="#" class="space-y-8" ref={form} onSubmit={sendEmail}>
               <div>
                 <label
                   for="email"
@@ -103,7 +103,7 @@ const Contact = () => {
               <button
                 type="submit"
                 value="Send"
-                class="py-3 px-5 text-sm font-medium text-center text-white rounded-lg group text-black w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-red-500 to-green-500  cursor-pointer hover:scale-110 duration-500"
+                class="text-sm font-medium text-center text-white  groupw-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-red-500 to-green-500  cursor-pointer hover:scale-110 duration-500"
               >
                 Send message
               </button>
