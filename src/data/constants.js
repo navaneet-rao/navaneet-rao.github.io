@@ -167,15 +167,15 @@ export const skills = [
 ];
 
 export const Projects = [
-  {
-    title: "My Portfolio",
-    description:
-      "This is my personal portfolio website built using ReactJS and Tailwind",
-    image: images.PortfolioPhoto,
-    haveDemo: true,
-    demo: "https://navaneet-rao.github.io/portfolio-website/",
-    code: "https://github.com/navaneet-rao/portfolio-website",
-  },
+  // {
+  //   title: "My Portfolio",
+  //   description:
+  //     "This is my personal portfolio website built using ReactJS and Tailwind",
+  //   image: images.PortfolioPhoto,
+  //   haveDemo: true,
+  //   demo: "https://navaneet-rao.github.io/portfolio-website/",
+  //   code: "https://github.com/navaneet-rao/portfolio-website",
+  // },
   {
     title: "Face Detection Application",
     description: "Face Detection Application using Python and BetaFaceAPI",
