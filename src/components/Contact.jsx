@@ -15,11 +15,17 @@ const Contact = () => {
       )
       .then(
         (result) => {
+          console.log("Message Sent");
           console.log(result.text);
+          alert("Message Sent");
+          form.current.reset();
         },
         (error) => {
           console.log(error.text);
-        }
+          alert("Message not sent");
+          form.current.reset();
+        },
+        
       );
   };
   return (
