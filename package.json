@@ -19,7 +19,7 @@
     "react-scroll": "^1.9.0",
     "react-tsparticles": "^2.12.2",
     "react-type-animation": "^3.2.0",
-    "styled-components": "^6.1.7",
+    "styled-components": "^6.1.8",
     "tsparticles": "^3.0.2",
     "web-vitals": "^2.1.4"
   },
